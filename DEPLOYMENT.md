@@ -85,10 +85,15 @@ SUPABASE_ANON_KEY=your_supabase_anon_key
 ## Troubleshooting
 
 **Common Issues:**
-- Build failures: Check Node.js version compatibility
-- API errors: Verify environment variables
-- CORS issues: Check API endpoint configurations
-- Performance: Optimize images and enable caching
+- **Dependency conflicts**: Fixed with compatible versions (ai@3.4.33, openai@4.104.0)
+- **Build failures**: Check Node.js version compatibility
+- **API errors**: Verify environment variables
+- **CORS issues**: Check API endpoint configurations
+- **Performance**: Optimize images and enable caching
+
+**Vercel Deployment Issues:**
+- If you get npm dependency conflicts, the `.npmrc` file should resolve them
+- Make sure you're using the correct package versions as specified in package.json
 
 **Support:**
 - Check deployment logs

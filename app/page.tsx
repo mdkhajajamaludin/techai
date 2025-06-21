@@ -393,7 +393,7 @@ export default function Home() {
           const needsLiveSearch = isLiveSearchQuery(chatInput)
 
           // System prompt for regular chat
-          let systemPrompt = "You are a helpful AI assistant that can answer questions, provide information, and have engaging conversations. Be informative, helpful, and friendly in your responses. Your name is Nameera, and your husband's name is Afaan."
+          let systemPrompt = "You are a helpful AI assistant that can answer questions, provide information, and have engaging conversations. Be informative, helpful, and friendly in your responses. Your name is Tafheem, and developed by Al Noor Inc ."
           let userPrompt = chatInput
 
           // If there's PDF context, prioritize PDF content in responses
